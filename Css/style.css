@@ -1,0 +1,239 @@
+@font-face {
+    font-family:' vazirmatn';
+    src: url('../Fonts/Vazirmatn-VariableFont_wght.ttf')
+    format(truetype);
+}
+body {
+    font-family: "vazirmatn",sans-serif;
+    background-color: rgb(136, 136, 136);
+    color: aqua;
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+}
+main {
+    margin: 30px auto;
+    max-width: 900px;
+}
+.site-header-footer{
+    background-color: rgb(136, 136, 136);
+    color: aqua;
+    padding: 25px 10px;
+    text-align: center;
+    border: 5px solid rgb(116, 111, 111);
+    border-radius: 10px;
+    
+}
+.featurs-section{
+    background-color: rgb(148, 147, 147);
+    color: aqua;
+     padding: 10px;
+     margin: 5px;
+     border: 5px double rgb(105, 105, 105);
+     border-radius: 10px;
+}
+.image-section{
+    background-color: rgb(136, 136, 136);
+    text-align: center;
+}
+img {
+    width: auto;
+    max-width: 900px;
+    height: 1000px;
+    border-radius: 10px;
+}
+#list title {
+    font-size: 50px;
+    color: red;
+}
+h2,h3 {
+    color: rgb(5, 219, 219);
+    text-align: center;
+
+}
+footer{
+    border: 5px solid rgb(116, 111, 111);
+    color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+a{
+    color: rgb(43, 43, 173);
+    text-decoration:none;
+}
+a:hover {
+    color: rgb(31, 201, 201);
+    text-decoration: none;
+}
+nav {
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 15px;
+}
+nav a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:hover{
+    color: rgb(31, 201, 201);
+    text-decoration: none;
+}
+body.dark-mode {
+    font-family: sans-serif;
+    background-color: rgb(63, 63, 63);
+    color: rgb(209, 29, 29);
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+}
+body.dark-mode .site-header-footer{
+    background-color: rgb(63, 63, 63);
+    color: rgb(209, 29, 29);
+    padding: 25px 10px;
+    text-align: center;
+    border: 5px solid rgb(75, 75, 75);
+    border-radius: 10px;
+    
+}
+body.dark-mode .featurs-section{
+    background-color: rgb(63, 63, 63);
+    color: rgb(209, 29, 29);
+     padding: 10px;
+     margin: 5px;
+     border: 5px double rgb(71, 71, 71);
+     border-radius: 10px;
+}
+body.dark-mode nav a{
+    color: rgb(209, 29, 29);
+    text-decoration: none;
+    font-size: 20px;
+}
+body.dark-modenav a:hover{
+    color: rgb(201, 113, 31);
+    text-decoration: none;
+}
+body.dark-mode .image-section{
+    background-color: rgb(63, 63, 63);
+    text-align: center;
+}
+body.dark-mode h2, body.dark-mode h3 {
+    color: rgb(209, 29, 29);
+    text-align: center;
+}
+body.dark-mode a{
+    color: rgb(255, 94, 0);
+    text-decoration:none;
+}
+body.dark-mode a:hover {
+    color: rgb(255, 123, 0);
+    text-decoration: none;
+}
+body.dark-mode footer{
+    border: 5px solid rgb(63, 63, 63);
+    color: rgb(209, 29, 29);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+body.dark-mode nav {
+    text-align: center;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.gallery-grid img {
+    height:100% ;
+    width:100% ;
+    object-fit: cover;
+    border-radius: 30px;
+}
+body.dark-mode .contact-form {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 15px;
+    border: 5px solid rgb(255, 38, 0);
+    border-radius: 10px;
+    
+}
+body.dark-mode .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+body.dark-mode .contact-form input, .contact-form textarea {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+}
+body.dark-mode .contact-form input:focus, .contact-form textarea:focus {
+    border-color: rgb(209, 29, 29);
+    background-color: rgb(197, 197, 197);
+    outline: none;
+    border: 5px solid rgb(255, 94, 0);
+}
+body.dark-mode .contact-form button {
+    background-color: rgb(255, 123, 0);
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+.errorText {
+    color: brown;
+}
+nav button {
+    background-color: rgb(63, 63, 63);
+    color: aqua;
+    border: 3px solid rgb(63, 63, 63);
+    border-radius: 3px;
+}
+body.dark-mode nav button {
+    background-color: rgb(209, 29, 29);
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(209, 29, 29);
+    border-radius: 3px;
+}
+.contact-form {
+    background-color:  rgb(75, 75, 75) ;
+    padding: 10px;
+    margin: 15px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+    
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-form input, .contact-form textarea {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: aqua;
+    background-color: rgb(75, 75, 75);
+    outline: none;
+    border: 5px solid aqua;
+}
+.contact-form button {
+    background-color: gray;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    color: aqua;
+}
